@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+
+.main {
+  width: 80%;
+  margin: auto;
+}
+.top-s {
+  display: flex;
+}
+.top-s h1 {
+  margin-bottom: 0px;
+  color: #45a049;
+}
+.top-s button{
+  height: 40px;
+  background: #45a049;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+.title {
+  margin: 0 auto;
+  color: #45a049;
+}
+
+.userTable {
+  margin: 20px auto;
+  border: 1px solid #f2f2f2;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button img {
+  height: 30px;
+  width: 30px;
+}
+button {
+  background: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.word-break {
+  word-break: break-all;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4); 
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; 
+  padding: 20px;
+  width: 45%; 
+  border-radius: 10px;
+}
+
+/* Close Button */
+.close {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+.close img{
+  height: 30px;
+  width: 30px;
+}
+.close:hover,
+.close:focus {
+  cursor: pointer;
+}
+
+form {
+  display: grid;
+  gap: 8px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+
+input {
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #aaa;
+  outline: none;
+  border-radius: 4px;
+}
+
+ .modal-btn {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-btn:hover {
+  background-color: #45a049;
+} 
+
+/* for delete */
+.delete-modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  width: 30%; 
+  border-radius: 10px;
+}
+.modal-alert-box{
+  text-align: center;
+}
+.modal-action-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.btn-delete {
+  background-color: #ff5a5f;
+}
+
+.btn-delete.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.btn-delete:hover {
+  background-color: #e6474d;
+}
+.btn-cancel {
+  background: #aaa;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.btn-cancel:hover {
+  background-color: #eee;
+}
+
